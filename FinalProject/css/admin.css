@@ -1,0 +1,21 @@
+
+
+#delete{
+	color: red;
+}
+#delete:hover{
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+td{
+	padding-right: 5px;
+}
+
+table{
+	font-size: 9px;
+}
+.plslogin{
+	color: #72b70f;
+}

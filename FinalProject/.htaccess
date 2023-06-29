@@ -1,0 +1,11 @@
+RewirteEngine on
+RewriteRule ^assets/(.*)$ single_asset.php?url_name=$1
+RewriteRule ^agents/(.*)$ agent.php?url_name=$1
+
+#example of a link: if an asset has a url_name = blue_house the url for this asset:  #$config->url."/assets/blue_house";
+
+
+
+#in adressbar words that come after ^, saving in var $, then space, which means redirecting to what comes after space, * stands for anything
+#what is shown in adress bar space redirecting to where should go
+# dollar sign is a variable and there might be more than one, so call $1
